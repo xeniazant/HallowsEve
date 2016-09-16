@@ -1,6 +1,46 @@
+/*© Xenia Zantello 2016->*/
 *{
     font: Arial;
 }
-*.bigboi{
+
+.bigboi{
     color: #ff9900;
+    text-indent: 20px;
+    font-style: italic;
+    text-shadow: 2px 2px black;
+}
+
+li{
+    padding-top: 20px;
+}
+
+.h1{
+    font-size: 200%;
+}
+
+.h2{
+    font-size: 150%;
+}
+
+.welcome::first-letter{
+    font-size: 300% ;
+    
+}
+
+.pumpkin{
+    float: left;
+}
+
+.goblin{
+    text-indent: 20px;
+}
+
+a{
+    color: orange;
+    font-weight: bold;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 50%;
 }

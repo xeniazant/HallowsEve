@@ -41,12 +41,18 @@ footer{
     
 }
 
+.leftList{
+    float: left;
+    
+}
+
 li{
     padding-top: 20px;
 }
 
 .h1{
     font-size: 200%;
+    
 }
 
 .h2{

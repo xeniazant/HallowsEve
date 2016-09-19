@@ -43,7 +43,8 @@ footer{
 
 .leftList{
     float: left;
-    
+    height: 900px;
+    padding-right: 20px;
 }
 
 li{
@@ -52,6 +53,8 @@ li{
 
 .h1{
     font-size: 200%;
+    margin: 0;
+    padding-top: 0;
     
 }
 

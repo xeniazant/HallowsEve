@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <LINK REL=StyleSheet HREF="styles/main.css" TYPE="text/css" MEDIA=screen>
+    <LINK REL=StyleSheet HREF="styles/email.css" TYPE="text/css" MEDIA=screen>
     <title>Halloween Store</title>
   </head>
 
@@ -25,7 +25,7 @@
           <li><a href="email.html">Join Email</a></li>
       </ul>
     </div>
-    <div id="mainContainer">
+    <div id="mainContainer" >
       <div class="leftList">
         <ul id="sidebar">
         <li><a href="slides/products/blarg.txt">Props</a></li>
@@ -33,22 +33,23 @@
         <li><a href="slides/products/blarg.txt">Special Effects</a></li>
         <li><a href="slides/products/blarg.txt">Masks</a></li>
       </ul>
-    </div>    
-      <h1 class="welcome">Welcome to my site.<br/> Please come in and stay awhile. </h1>
       
-    <p>I started this website because Halloween has always been my favorite holiday. But during the last year, I started selling some of my favorite Halloween products, and they've become quite a hit.
-If you click on the Personal link, you can browse my favorite Halloween pictures, stories, and films. And if you join my email list, I will keep you up-to-date on all things Halloween.</p>
-    <h2>Product of the week.</h2>
-    <img src="images/cat1.jpg" alt="inflatasble cat" height="100" width="100">
-      <div>
-        <a href="slides/products/cat.html"> 20'' Deranged Cat</a>
-      </div>
+    </div>  
+      
+        <form action="subscribe.html">
+        First Name: 
+        <input type="text" name="firstname" autofocus><br>
+        Last Name: 
+        <input type="text" name="Lastname"><br>
+        Email:    
+        <input id="email" type="email" name="Email" required=""><br>
+        Zip Code:
+        <input id="zip" type="text" name="Zip Code" pattern="^\d{5}$"><br>
+        <input type="submit" name="subcribe!" value="Subscribe">
+      </form>
+      
     </div>
-    <div id="bottomFix">
-      <h2>My guarantee</h2>
-      <p>If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund. <b>No questions asked!</b></p>
-    </div>
-    <footer>
+      <footer>
       <p class="copyright">&copy; 2016 Ben Murach</p>
     </footer>
   </body>
